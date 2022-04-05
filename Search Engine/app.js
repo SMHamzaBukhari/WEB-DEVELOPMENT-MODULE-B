@@ -607,8 +607,7 @@ const obj = [
       let filtered = obj.filter((data) => {
 
         if (search == data[category].toString().match(search)) {
-          return console.log(data)
-              // filterItem.innerHTML += a
+          return console.log(data)             
       } else {
           return console.log("not match")
       }
