@@ -609,7 +609,7 @@ const obj = [
         if (search == data[category].toString().match(search)) {
           return console.log(data)             
       } else {
-          return console.log("not match")
+          return console.log("not found!")
       }
       });   
   }
